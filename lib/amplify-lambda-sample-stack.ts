@@ -129,7 +129,17 @@ export class AmplifyLambdaSampleStack extends cdk.Stack {
     userRole.addToPolicy(
       new iam.PolicyStatement({
         effect: iam.Effect.ALLOW,
-        actions: ["s3:GetObject", "s3:ListBucket"],
+        actions: ["s3:GetObject"],
+        resources: [
+          `${bucket.bucketArn}/` + "${cognito-identity.amazonaws.com:sub}/*",
+        ],
+      })
+    );
+
+    userRole.addToPolicy(
+      new iam.PolicyStatement({
+        effect: iam.Effect.ALLOW,
+        actions: ["s3:ListBucket"],
         resources: [bucket.bucketArn],
         conditions: {
           StringLike: {
