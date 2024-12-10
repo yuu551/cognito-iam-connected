@@ -1,10 +1,10 @@
-# Welcome to your CDK TypeScript project
+# CognitoとIAM連携のサンプルレポジトリ
 
-This is a blank project for CDK development with TypeScript.
+## システム構成のイメージ
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+![CleanShot 2024-12-10 at 13.38.37@2x](./README.assets/CleanShot 2024-12-10 at 13.38.37@2x.png)
 
-## Useful commands
+## コマンド
 
 * `npm run build`   compile typescript to js
 * `npm run watch`   watch for changes and compile
