@@ -2,7 +2,7 @@
 
 ## システム構成のイメージ
 
-![CleanShot 2024-12-10 at 13.38.37@2x](./README.assets/CleanShot 2024-12-10 at 13.38.37@2x.png)
+![arch](/README.assets/arch.png)
 
 ## コマンド
 
