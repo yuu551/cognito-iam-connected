@@ -6,7 +6,7 @@ CDKで実装しました。
 ## システム構成のイメージ
 検証した結果下記のようなイメージで動きます。
 
-![arch](/README.assets/arch.png)
+![CleanShot 2024-12-10 at 13.48.16@2x](/Users/jinno.yudai/dev/amplify-lambda-sample/README.assets/CleanShot 2024-12-10 at 13.48.16@2x.png)
 
 ## コマンド
 
